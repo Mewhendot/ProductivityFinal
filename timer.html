@@ -1,0 +1,47 @@
+<!--
+Name: Cayden Williams
+File: timer.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Study Timer</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="timer.html">Study Timer</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Pomodoro Timer</h2>
+
+    <p id="timer">25:00</p>
+
+    <button onclick="startTimer()">Start Timer</button>
+</section>
+
+<section>
+    <h2>Study Music</h2>
+
+    <audio controls>
+        <source src="study-music.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
