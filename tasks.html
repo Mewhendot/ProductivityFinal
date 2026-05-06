@@ -12,8 +12,8 @@ File: tasks.html
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
+    
+    <header>
     <h1>Task Manager</h1>
 
     <nav>
@@ -27,6 +27,8 @@ File: tasks.html
 
 <section>
     <h2>Weekly Tasks</h2>
+
+    <p>Click inside the table to edit your assignments and use the checkboxes to track completion.</p>
 
     <table id="taskTable">
         <tr>
@@ -71,17 +73,29 @@ File: tasks.html
             <td contenteditable="true">Friday</td>
         </tr>
     </table>
-
-    <p>You can click the table text to edit your weekly tasks.</p>
 </section>
 
 <section>
-    <h2>To-Do List</h2>
+    <h2>Quick To-Do List</h2>
+
+    <p>Add smaller daily tasks below.</p>
 
     <input type="text" id="taskInput" placeholder="Enter a task">
     <button onclick="addTask()">Add Task</button>
 
     <ul id="taskList"></ul>
+</section>
+
+<section>
+    <h2>Productivity Tips</h2>
+
+    <ul>
+        <li>Break large assignments into smaller goals</li>
+        <li>Study in short focused sessions</li>
+        <li>Keep distractions away while working</li>
+        <li>Review notes every day</li>
+        <li>Get enough sleep before tests</li>
+    </ul>
 </section>
 
 <script src="script.js"></script>
